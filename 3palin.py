@@ -3,11 +3,7 @@ string = input()
 def is_pallindrome(string):
     n = len(string)
     if n==1:
-        return True
-    for i in range(n//2):
-        if string[i] != string[-i-1]:
-            return False
-    return True
+        #jjjresg hytr jj yy loohh hh bh
 
 def ans(string):
     for x in range(1,len(string)-2):
