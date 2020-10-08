@@ -22,9 +22,8 @@ for d in range (d1,d2+1):
                 else:
                     e = c+str(ss)
                 if(e == e[::-1]):
-                    count+=1
-                e = e[:len(e)-2]
-            c = c[:len(c)-2]
-        b = b[:len(b)-2]
+                    
+    a = a+str(d)
+    for hh in range(0,24):
     a = '' 
 print(count)
