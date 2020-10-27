@@ -15,10 +15,6 @@ for d in range (d1,d2+1):
             if(mm<10):
                 c = b+('0'+str(mm))
             else:
-                c = b+str(mm)
-            for ss in range (0,60):
-                if(ss<10):
-                    e = c+('0'+str(ss))
                 else:
                     e = c+str(ss)
                 if(e == e[::-1]):
